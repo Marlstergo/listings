@@ -64,7 +64,7 @@ const Header = ({history}) => {
         variants={buttonVariants}
         whileHover="hover"
         animate={`${history.location.pathname === '/adduser'?'':'show'}`}
-        className="text-xl border-2 px-3 rounded-2xl active:bg-gray-200 flex items-center"
+        className="text-xl border-2 px-3 rounded-2xl active:bg-gray-200"
         >
         <motion.button
           
